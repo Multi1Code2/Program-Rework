@@ -1,0 +1,124 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Header Section */
+.header {
+    background-image: url('12qc2.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 200px 0;
+    position: relative;
+}
+
+.header h1 {
+    background-color: rgba(0, 47, 108, 0.8);
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 36px;
+}
+
+.logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 80px;
+}
+
+/* Program Sections - General Styles */
+.program {
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    position: relative;
+    margin: 20px 0;
+    color: white;
+    overflow: hidden;
+    height: 250px; 
+}
+
+.program::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    z-index: 1;
+}
+
+/* Image Container */
+.image-container {
+    flex: 1;
+    max-width: 350px; /* Adjust size as needed */
+    z-index: 2;
+    position: relative;
+}
+
+.image-container img {
+    visibility: visible; 
+    width: 100%; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+/* Content */
+.content {
+    flex: 3; /* Adjust content size */
+    padding: 200px;
+    z-index: 2;
+}
+
+.content h2 {
+    font-size: 29px;
+    margin-bottom: 10px;
+}
+
+.content p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/*backgrounds*/
+.program.animal-welfare {
+    background-image: url('doggo.jpeg');
+    background-size: cover; 
+    background-position: center;
+}
+
+.program.employment {
+    background-image: url('employment.jpg'); 
+    background-size: cover; 
+    background-position: center;
+}
+
+.program.environment {
+    background-image: url('environment\ pictures.jpg'); 
+    background-size: cover;
+    background-position: center;
+}
+
+.program.health.and.support{
+    background-image: url('health\ and\ support.jpg'); 
+    background-size: cover;
+    background-position: center;
+}
+
+.program.Public-Safety{
+    background-image: url('safety.jpeg'); 
+    background-size: cover;
+    background-position: center;
+}
+
+.program.shelter-protection{
+    background-image: url('shelter1.jpg'); 
+    background-size: cover;
+    background-position: center;
+}
